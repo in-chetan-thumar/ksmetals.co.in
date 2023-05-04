@@ -1,0 +1,193 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/FontAwesome.eot');
+    src: url('../fonts/FontAwesome.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FontAwesome.woff2') format('woff2'),
+        url('../fonts/FontAwesome.woff') format('woff'),
+        url('../fonts/FontAwesome.ttf') format('truetype'),
+        url('../fonts/FontAwesome.svg#FontAwesome') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'InterLight';
+    src: url('../fonts/Inter-Light.eot');
+    src: url('../fonts/Inter-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-Light.woff2') format('woff2'),
+        url('../fonts/Inter-Light.woff') format('woff'),
+        url('../fonts/Inter-Light.ttf') format('truetype'),
+        url('../fonts/Inter-Light.svg#Inter-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'InterMedium';
+    src: url('../fonts/Inter-Medium.eot');
+    src: url('../fonts/Inter-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-Medium.woff2') format('woff2'),
+        url('../fonts/Inter-Medium.woff') format('woff'),
+        url('../fonts/Inter-Medium.ttf') format('truetype'),
+        url('../fonts/Inter-Medium.svg#Inter-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'InterSemiBold';
+    src: url('../fonts/Inter-SemiBold.eot');
+    src: url('../fonts/Inter-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-SemiBold.woff2') format('woff2'),
+        url('../fonts/Inter-SemiBold.woff') format('woff'),
+        url('../fonts/Inter-SemiBold.ttf') format('truetype'),
+        url('../fonts/Inter-SemiBold.svg#Inter-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'InterRegular';
+    src: url('../fonts/Inter-Regular.eot');
+    src: url('../fonts/Inter-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-Regular.woff2') format('woff2'),
+        url('../fonts/Inter-Regular.woff') format('woff'),
+        url('../fonts/Inter-Regular.ttf') format('truetype'),
+        url('../fonts/Inter-Regular.svg#Inter-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'InterBold';
+    src: url('../fonts/Inter-Bold.eot');
+    src: url('../fonts/Inter-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-Bold.woff2') format('woff2'),
+        url('../fonts/Inter-Bold.woff') format('woff'),
+        url('../fonts/Inter-Bold.ttf') format('truetype'),
+        url('../fonts/Inter-Bold.svg#Inter-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'InterBlack';
+    src: url('../fonts/Inter-Black.eot');
+    src: url('../fonts/Inter-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-Black.woff2') format('woff2'),
+        url('../fonts/Inter-Black.woff') format('woff'),
+        url('../fonts/Inter-Black.ttf') format('truetype'),
+        url('../fonts/Inter-Black.svg#Inter-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'InterExtraBold';
+    src: url('../fonts/Inter-ExtraBold.eot');
+    src: url('../fonts/Inter-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Inter-ExtraBold.woff') format('woff'),
+        url('../fonts/Inter-ExtraBold.ttf') format('truetype'),
+        url('../fonts/Inter-ExtraBold.svg#Inter-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KarlaBold';
+    src: url('../fonts/Karla-Bold.eot');
+    src: url('../fonts/Karla-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Karla-Bold.woff2') format('woff2'),
+        url('../fonts/Karla-Bold.woff') format('woff'),
+        url('../fonts/Karla-Bold.ttf') format('truetype'),
+        url('../fonts/Karla-Bold.svg#Karla-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KarlaExtraLight';
+    src: url('../fonts/Karla-ExtraLight.eot');
+    src: url('../fonts/Karla-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Karla-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Karla-ExtraLight.woff') format('woff'),
+        url('../fonts/Karla-ExtraLight.ttf') format('truetype'),
+        url('../fonts/Karla-ExtraLight.svg#Karla-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KarlaMedium';
+    src: url('../fonts/Karla-Medium.eot');
+    src: url('../fonts/Karla-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Karla-Medium.woff2') format('woff2'),
+        url('../fonts/Karla-Medium.woff') format('woff'),
+        url('../fonts/Karla-Medium.ttf') format('truetype'),
+        url('../fonts/Karla-Medium.svg#Karla-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KarlaSemiBold';
+    src: url('../fonts/Karla-SemiBold.eot');
+    src: url('../fonts/Karla-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Karla-SemiBold.woff2') format('woff2'),
+        url('../fonts/Karla-SemiBold.woff') format('woff'),
+        url('../fonts/Karla-SemiBold.ttf') format('truetype'),
+        url('../fonts/Karla-SemiBold.svg#Karla-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KarlaExtraBold';
+    src: url('../fonts/Karla-ExtraBold.eot');
+    src: url('../fonts/Karla-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Karla-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Karla-ExtraBold.woff') format('woff'),
+        url('../fonts/Karla-ExtraBold.ttf') format('truetype'),
+        url('../fonts/Karla-ExtraBold.svg#Karla-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KarlaRegular';
+    src: url('../fonts/Karla-Regular.eot');
+    src: url('../fonts/Karla-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Karla-Regular.woff2') format('woff2'),
+        url('../fonts/Karla-Regular.woff') format('woff'),
+        url('../fonts/Karla-Regular.ttf') format('truetype'),
+        url('../fonts/Karla-Regular.svg#Karla-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KarlaLight';
+    src: url('../fonts/Karla-Light.eot');
+    src: url('../fonts/Karla-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Karla-Light.woff2') format('woff2'),
+        url('../fonts/Karla-Light.woff') format('woff'),
+        url('../fonts/Karla-Light.ttf') format('truetype'),
+        url('../fonts/Karla-Light.svg#Karla-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
