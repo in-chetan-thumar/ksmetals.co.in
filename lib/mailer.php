@@ -11,19 +11,19 @@ function send_mail($data)
     try {
         // $mail->SMTPDebug = 2;
         $mail->isSMTP();
-        $mail->Host       = 'smtp.gmail.com;';
+        $mail->Host       = 'smtp.office365.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'rajesh.vora@tiez.nl';
-        $mail->Password   = 'rajesh@vora';
+        $mail->Username   = 'noreply@ksmetals.co.in';
+        $mail->Password   = 'qjfyfcvvnxfvfxhz';
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
         $mail->SMTPDebug = false;
-        $mail->setFrom('noreply@tiez.nl', 'KS Metals');
-        $mail->addAddress('receiver1@mailinator.com');
+        $mail->setFrom('noreply@ksmetals.co.in', 'KS Metals');
+        $mail->addAddress('customer.connect@kscheemagroup.com');
         // $mail->addAddress('receiver2@gfg.com', 'Name');
 
         $mail->isHTML(true);
-        $mail->Subject = 'Test Subject';
+        $mail->Subject = 'New enquiry from KS Metals website';
         $mail->Body    = 'Hello Team, <br/><br/><br/>
         You received an inquiry from '.$data['first_name'].' form. <br/><br/>
         Name: '.$data['first_name'].' '.$data['last_name'].'<br/><br/>
