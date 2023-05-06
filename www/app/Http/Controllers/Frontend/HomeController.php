@@ -42,25 +42,6 @@ class HomeController extends Controller
         //
     }
 
-    public function enquiryForm(Request $request)
-    {
-        // dd($request->all());
-        $email = $request->email;
-        $first_name = $request->first_name;
-        $message = $request->message;
-        $mailData = [
-            'title' => 'Enquiry notification mail',
-            'body' => $first_name.' has an enquiry for '. $message
-        ];
-
-        Mail::to($email)->send(new EnquiryMail($mailData));
-        // toastr()->success('Thank you for your message. It has been sent.');
-
-        $data['error'] = false;
-        $data['view'] = view('frontend.index')->render();
-        $data['message'] = 'Thank you for your message. It has been sent.';
-        return response()->json($data);
-    }
 
     /**
      * Display the specified resource.

@@ -43,13 +43,17 @@ class ContactController extends Controller
 
     public function enquiryForm(EnquiryRequest $request)
     {
-        // dd($request->all());
-        $email = 'rabi.mohanty@quantuminfoway.com';
-        $first_name = $request->first_name;
-        $message = $request->message;
+        
+        $products = implode (", ", $request->products);
+
+        $email = config('constants.TO_EMAIL');
         $mailData = [
             'title' => 'Enquiry notification mail',
-            'body' => $first_name.' has an enquiry for '. $message
+            'subject' => 'New enquiry from KS Metals website',
+            'first_name' => $request->first_name,
+            'email' => $request->email,
+            'products' => $products,
+            'message' => $request->message,
         ];
 
         Mail::to($email)->send(new EnquiryMail($mailData));
