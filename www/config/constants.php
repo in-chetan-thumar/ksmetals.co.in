@@ -2,7 +2,7 @@
 return [
     'APP_NAME' => env('APP_NAME', ''),
     'CC_EMAILS' => [],
-    'TO_EMAIL' => 'rabi.mohanty@quantuminfoway.com',
+    'TO_EMAIL' => 'customer.connect@kscheemagroup.com',
     'PER_PAGE' => 3,
     'SUPER_ADMIN' => 'Super Admin',
     // FILE UPLOAD PATH
