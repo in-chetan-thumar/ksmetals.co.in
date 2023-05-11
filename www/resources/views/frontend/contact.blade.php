@@ -31,25 +31,25 @@
                         <div class="row">
                             <div class="col-12 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
                                 <div class="form-group input-box">
-                                    {!! Form::label('first_name', 'First Name', ['class' => 'input-label']) !!}<span class="required" style="color: red;">*</span>
+                                    {!! Form::label('first_name', 'First Name', ['class' => 'input-label']) !!}
                                     {!! Form::text('first_name', null, ['class' => 'form-control input']) !!}
                                 </div>
                             </div>
                             <div class="col-12 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
                                 <div class="form-group input-box">
-                                    {!! Form::label('last_name', 'Last Name', ['class' => 'input-label']) !!}<span class="required" style="color: red;">*</span>
+                                    {!! Form::label('last_name', 'Last Name', ['class' => 'input-label']) !!}
                                     {!! Form::text('last_name', null, ['class' => 'form-control input']) !!}
                                 </div>
                             </div>
                             <div class="col-12 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
                                 <div class="form-group input-box">
-                                    {!! Form::label('email', 'Email Id', ['class' => 'input-label']) !!}<span class="required" style="color: red;">*</span>
+                                    {!! Form::label('email', 'Email Id', ['class' => 'input-label']) !!}
                                     {!! Form::email('email', null, ['class' => 'form-control input']) !!}
                                 </div>
                             </div>
                             <div class="col-12 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
                                 <div class="form-group input-box">
-                                    {!! Form::label('products', 'Products Interested In', ['class' => 'input-label']) !!}<span class="required" style="color: red;">*</span>
+                                    {!! Form::label('products', 'Products Interested In', ['class' => 'input-label']) !!}
                                     {!! Form::select(
                                         'products[]',
                                         [
@@ -65,11 +65,13 @@
                                         null,
                                         ['class' => '4colactive', 'multiple' => 'multiple'],
                                     ) !!}
+                                    <span style="color:#dc3545 ; font-size:.875em">
+                                    </span>
                                 </div>
                             </div>
                             <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                 <div class="form-group input-box">
-                                    {!! Form::label('message', 'Message', ['class' => 'input-label']) !!}<span class="required" style="color: red;">*</span>
+                                    {!! Form::label('message', 'Message', ['class' => 'input-label']) !!}
                                     {!! Form::textarea('message', null, [
                                         'class' => 'form-control input',
                                         'id' => '',
@@ -111,14 +113,14 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xxl-8 col-xl-8 col-lg-7 col-md-12 col-sm-12">
+                    {{-- <div class="col-xxl-8 col-xl-8 col-lg-7 col-md-12 col-sm-12">
                         <div class="location_map">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3729.00170081999!2d78.96883197593675!3d20.831637794518564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd49f9e8cee345d%3A0x6b9d1191b6207133!2sK%20S%20Metals%20%26%20Mining%20Industries%20Pvt%20Ltd.%2C!5e0!3m2!1sen!2sin!4v1683045044605!5m2!1sen!2sin"
                                 width="600" height="450" style="border:0;" allowfullscreen="" 
                                 referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </section>
@@ -394,6 +396,10 @@
                         $('#status').hide();
                         $('#preloader').hide();
                         toastr.error('Error occurred!');
+                        console.log(jqXHR.responseJSON.errors)
+                        $.each(jqXHR.responseJSON.errors, function(key, value) {
+                        $('.ms-options-wrap').next().html(value[0]);
+                    });
                     }
                 });
             }

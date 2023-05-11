@@ -43,7 +43,6 @@ class ContactController extends Controller
 
     public function enquiryForm(EnquiryRequest $request)
     {
-        
         $products = implode (", ", $request->products);
 
         $email = config('constants.TO_EMAIL');

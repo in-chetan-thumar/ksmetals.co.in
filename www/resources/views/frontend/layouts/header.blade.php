@@ -18,7 +18,7 @@
    <header class="header_main">
          <div class="d-flex align-items-center justify-content-between">
             <div class="logo_main">
-               <a href="index.php" title="Diamond Estate"><img src="{{asset('assets/frontend/images/logo.svg')}}" alt=""></a>
+               <a href="{{route('frontend.home')}}" title="Diamond Estate"><img src="{{asset('assets/frontend/images/logo.svg')}}" alt=""></a>
             </div>
             <div class="menu_right">
                <a id="wsnavtoggle" class="wsanimated-arrow menu_close"><span></span><span></span><span></span><span></span></a>

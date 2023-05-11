@@ -11,6 +11,7 @@
   </section>
     <section id="aboutus" class="about_us">
         <div class="container">
+            <div class="about_stone"></div>
             <div class="row justify-content-center">
                 <div class="col-xxl-10 col-xl-10 col-lg-11">
                     <div class="row">
@@ -94,6 +95,8 @@
                     </div>
                 </div>
             </div>
+            <div class="product_icon"> </div>
+            <div class="product_stone"> </div>
         </div>
     </section>
 
@@ -111,7 +114,7 @@
                     <div class="col-6 col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6">
                         <figure class="product_box hover_box wow fadeInUp" data-wow-delay="0.2s">
                             <div class="product_img">
-                                <a class="hover_img" href="images/product_img1.jpg" data-fancybox="group"><img
+                                <a class="hover_img" href="{{asset('assets/frontend/images/product_img1.jpg')}}" data-fancybox="group"><img
                                         src="{{asset('assets/frontend/images/product_img1.jpg')}}" alt="">
                                     <div class="overlay_hover">
                                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
@@ -148,7 +151,7 @@
                     <div class="col-6 col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6">
                         <figure class="product_box hover_box wow fadeInUp" data-wow-delay="0.4s">
                             <div class="product_img">
-                                <a class="hover_img" href="images/product_img2.jpg" data-fancybox="group"><img
+                                <a class="hover_img" href="{{asset('assets/frontend/images/product_img2.jpg')}}" data-fancybox="group"><img
                                         src="{{asset('assets/frontend/images/product_img2.jpg')}}" alt="">
                                     <div class="overlay_hover">
                                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
@@ -185,7 +188,7 @@
                     <div class="col-6 col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6">
                         <figure class="product_box hover_box wow fadeInUp" data-wow-delay="0.6s">
                             <div class="product_img">
-                                <a class="hover_img" href="images/product_img3.jpg" data-fancybox="group"><img
+                                <a class="hover_img" href="{{asset('assets/frontend/images/product_img3.jpg')}}" data-fancybox="group"><img
                                         src="{{asset('assets/frontend/images/product_img3.jpg')}}" alt="">
                                     <div class="overlay_hover">
                                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
@@ -222,7 +225,7 @@
                     <div class="col-6 col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6">
                         <figure class="product_box hover_box wow fadeInUp" data-wow-delay="0.8s">
                             <div class="product_img">
-                                <a class="hover_img" href="images/product_img4.jpg" data-fancybox="group"><img
+                                <a class="hover_img" href="{{asset('assets/frontend/images/product_img4.jpg')}}" data-fancybox="group"><img
                                         src="{{asset('assets/frontend/images/product_img4.jpg')}}" alt="">
                                     <div class="overlay_hover">
                                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
@@ -259,7 +262,7 @@
                     <div class="col-6 col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6">
                         <figure class="product_box hover_box wow fadeInUp" data-wow-delay="1s">
                             <div class="product_img">
-                                <a class="hover_img" href="images/product_img5.jpg" data-fancybox="group"><img
+                                <a class="hover_img" href="{{asset('assets/frontend/images/product_img5.jpg')}}" data-fancybox="group"><img
                                         src="{{asset('assets/frontend/images/product_img5.jpg')}}" alt="">
                                     <div class="overlay_hover">
                                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
@@ -296,7 +299,7 @@
                     <div class="col-6 col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6">
                         <figure class="product_box hover_box wow fadeInUp" data-wow-delay="1.2s">
                             <div class="product_img">
-                                <a class="hover_img" href="images/product_img6.jpg" data-fancybox="group"><img
+                                <a class="hover_img" href="{{asset('assets/frontend/images/product_img6.jpg')}}" data-fancybox="group"><img
                                         src="{{asset('assets/frontend/images/product_img6.jpg')}}" alt="">
                                     <div class="overlay_hover">
                                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
@@ -333,7 +336,7 @@
                     <div class="col-6 col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6">
                         <figure class="product_box hover_box wow fadeInUp" data-wow-delay="1.4s">
                             <div class="product_img">
-                                <a class="hover_img" href="images/product_img7.jpg" data-fancybox="group"><img
+                                <a class="hover_img" href="{{asset('assets/frontend/images/product_img7.jpg')}}" data-fancybox="group"><img
                                         src="{{asset('assets/frontend/images/product_img7.jpg')}}" alt="">
                                     <div class="overlay_hover">
                                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
@@ -370,7 +373,7 @@
                     <div class="col-6 col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6">
                         <figure class="product_box hover_box wow fadeInUp" data-wow-delay="1.6s">
                             <div class="product_img">
-                                <a class="hover_img" href="images/product_img8.jpg" data-fancybox="group"><img
+                                <a class="hover_img" href="{{asset('assets/frontend/images/product_img8.jpg')}}" data-fancybox="group"><img
                                         src="{{asset('assets/frontend/images/product_img8.jpg')}}" alt="">
                                     <div class="overlay_hover">
                                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
@@ -474,10 +477,9 @@
                                 <figcaption>
                                     <h2>K S Metals & Mining to take over UltraTech crushing plant</h2>
                                     <span>28-Nov-2019</span>
-                                    <p>City-based company K S Metals and Mining Pvt Ltd is in process of taking over
-                                        UltraTech crushing and mining plant at Algandhi, near Butibori.</p>
+                                    <p>City-based company K S Metals and Mining Pvt Ltd is in process of taking over UltraTech crushing and mining plant at Algandhi, near Butibori.</p>
 
-                                    <a href="#" class="read_more">Read <svg width="8" height="14"
+                                    <a href="https://www.thehitavada.com/Encyc/2019/11/28/K-S-Metals-Mining-to-take-over-UltraTech-crushing-plant.html" class="read_more" target="_blank">Read <svg width="8" height="14"
                                             viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M1.20594 1.31339e-06L8 7L1.20594 14L-8.45052e-07 12.7575L5.58811 7L1.61622e-07 1.2425L1.20594 1.31339e-06Z"
@@ -493,12 +495,11 @@
                                     <img src="{{asset('assets/frontend/images/blogimg2.jpg')}}" alt="">
                                 </div>
                                 <figcaption>
-                                    <h2>K S Metals & Mining to take over UltraTech crushing plant</h2>
+                                    <h2>K S Metals & Mining Crushing Plant now operational</h2>
                                     <span>27-Oct-2020</span>
-                                    <p>City-based company K S Metals and Mining Pvt Ltd is in process of taking over
-                                        UltraTech crushing and mining plant at Algandhi, near Butibori.</p>
+                                    <p>K S Metals & Mining Industries Private Limited, a group company of K S Cheema Group, has inaugurated it Algondi Mining and Crushing unit on Sunday in a simple ceremony after recitation of “Sukhmani Sahib Path” followed by “Ardas” for the wellbeing of all and “Guru ka Langar”.</p>
 
-                                    <a href="#" class="read_more">Read <svg width="8" height="14"
+                                    <a href="https://www.thehitavada.com/Encyc/2020/10/27/K-S-Metals-Mining-Crushing-Plant-now-operational.html" class="read_more" target="_blank">Read <svg width="8" height="14"
                                             viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M1.20594 1.31339e-06L8 7L1.20594 14L-8.45052e-07 12.7575L5.58811 7L1.61622e-07 1.2425L1.20594 1.31339e-06Z"
@@ -514,75 +515,11 @@
                                     <img src="{{asset('assets/frontend/images/blogimg3.jpg')}}" alt="">
                                 </div>
                                 <figcaption>
-                                    <h2>K S Metals & Mining to take over UltraTech crushing plant</h2>
+                                    <h2>Nagpur offers huge biz opportunities: K S Cheema</h2>
                                     <span>28-Nov-2019</span>
-                                    <p>City-based company K S Metals and Mining Pvt Ltd is in process of taking over
-                                        UltraTech crushing and mining plant at Algandhi, near Butibori.</p>
+                                    <p>K S Cheema, Chairman and Managing Director of Central Star, dealership of Mercedes-Benz and Garnet Motors (India) Pvt. Ltd said, “Nagpur city offers great business opportunities, that’s why I have selected and decided to settle in Nagpur finally.</p>
 
-                                    <a href="#" class="read_more">Read <svg width="8" height="14"
-                                            viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M1.20594 1.31339e-06L8 7L1.20594 14L-8.45052e-07 12.7575L5.58811 7L1.61622e-07 1.2425L1.20594 1.31339e-06Z"
-                                                fill="#60636E" />
-                                        </svg>
-                                    </a>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="swiper-slide">
-                            <figure class="blog_box">
-                                <div class="blog_img">
-                                    <img src="{{asset('assets/frontend/images/blogimg1.jpg')}}" alt="">
-                                </div>
-                                <figcaption>
-                                    <h2>K S Metals & Mining to take over UltraTech crushing plant</h2>
-                                    <span>28-Nov-2019</span>
-                                    <p>City-based company K S Metals and Mining Pvt Ltd is in process of taking over
-                                        UltraTech crushing and mining plant at Algandhi, near Butibori.</p>
-
-                                    <a href="#" class="read_more">Read <svg width="8" height="14"
-                                            viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M1.20594 1.31339e-06L8 7L1.20594 14L-8.45052e-07 12.7575L5.58811 7L1.61622e-07 1.2425L1.20594 1.31339e-06Z"
-                                                fill="#60636E" />
-                                        </svg>
-                                    </a>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="swiper-slide">
-                            <figure class="blog_box">
-                                <div class="blog_img">
-                                    <img src="{{asset('assets/frontend/images/blogimg2.jpg')}}" alt="">
-                                </div>
-                                <figcaption>
-                                    <h2>K S Metals & Mining to take over UltraTech crushing plant</h2>
-                                    <span>27-Oct-2020</span>
-                                    <p>City-based company K S Metals and Mining Pvt Ltd is in process of taking over
-                                        UltraTech crushing and mining plant at Algandhi, near Butibori.</p>
-
-                                    <a href="#" class="read_more">Read <svg width="8" height="14"
-                                            viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M1.20594 1.31339e-06L8 7L1.20594 14L-8.45052e-07 12.7575L5.58811 7L1.61622e-07 1.2425L1.20594 1.31339e-06Z"
-                                                fill="#60636E" />
-                                        </svg>
-                                    </a>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="swiper-slide">
-                            <figure class="blog_box">
-                                <div class="blog_img">
-                                    <img src="{{asset('assets/frontend/images/blogimg3.jpg')}}" alt="">
-                                </div>
-                                <figcaption>
-                                    <h2>K S Metals & Mining to take over UltraTech crushing plant</h2>
-                                    <span>28-Nov-2019</span>
-                                    <p>City-based company K S Metals and Mining Pvt Ltd is in process of taking over
-                                        UltraTech crushing and mining plant at Algandhi, near Butibori.</p>
-
-                                    <a href="#" class="read_more">Read <svg width="8" height="14"
+                                    <a href="https://www.thehitavada.com/Encyc/2019/11/28/Nagpur-offers-huge-biz-opportunities-K-S-Cheema.html" class="read_more" target="_blank">Read <svg width="8" height="14"
                                             viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M1.20594 1.31339e-06L8 7L1.20594 14L-8.45052e-07 12.7575L5.58811 7L1.61622e-07 1.2425L1.20594 1.31339e-06Z"
