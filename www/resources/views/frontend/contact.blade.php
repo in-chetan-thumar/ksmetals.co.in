@@ -113,14 +113,14 @@
                             </ul>
                         </div>
                     </div>
-                    {{-- <div class="col-xxl-8 col-xl-8 col-lg-7 col-md-12 col-sm-12">
+                    <div class="col-xxl-8 col-xl-8 col-lg-7 col-md-12 col-sm-12">
                         <div class="location_map">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3729.00170081999!2d78.96883197593675!3d20.831637794518564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd49f9e8cee345d%3A0x6b9d1191b6207133!2sK%20S%20Metals%20%26%20Mining%20Industries%20Pvt%20Ltd.%2C!5e0!3m2!1sen!2sin!4v1683045044605!5m2!1sen!2sin"
                                 width="600" height="450" style="border:0;" allowfullscreen="" 
                                 referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
-                    </div> --}}
+                    </div>
                 </div>
             </div>
         </section>
