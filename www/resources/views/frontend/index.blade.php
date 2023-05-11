@@ -452,7 +452,7 @@
             <div class="title_1">
                 <div class="title_main wow fadeInRight" data-wow-delay="0.2s">Media</div>
                 <div class="main_arrow">
-                    <div class="swiper-button-prev-blog swiper-button-prev"><svg width="9" height="15"
+                    {{-- <div class="swiper-button-prev-blog swiper-button-prev"><svg width="9" height="15"
                             viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M7.31052 14.1332L0.69287 7.5156L7.31052 0.89795L8.48515 2.07258L3.04213 7.5156L8.48515 12.9586L7.31052 14.1332Z" />
@@ -463,7 +463,7 @@
                             <path
                                 d="M1.68899 0.898006L8.30664 7.51565L1.68899 14.1333L0.514361 12.9587L5.95738 7.51565L0.514362 2.07264L1.68899 0.898006Z" />
                         </svg>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
             <div class="swiper_main_slide wow fadeInLeft" data-wow-delay="0.4s">
@@ -472,12 +472,12 @@
                         <div class="swiper-slide">
                             <figure class="blog_box">
                                 <div class="blog_img">
-                                    <img src="{{asset('assets/frontend/images/blogimg1.jpg')}}" alt="">
+                                    <a href="https://www.thehitavada.com/Encyc/2019/11/28/K-S-Metals-Mining-to-take-over-UltraTech-crushing-plant.html" class="read_more" target="_blank"><img src="{{asset('assets/frontend/images/blogimg1.jpg')}}" alt=""></a>
                                 </div>
                                 <figcaption>
-                                    <h2>K S Metals & Mining to take over UltraTech crushing plant</h2>
+                                    <a href="https://www.thehitavada.com/Encyc/2019/11/28/K-S-Metals-Mining-to-take-over-UltraTech-crushing-plant.html" class="read_more" target="_blank"><h2>K S Metals & Mining to take over UltraTech crushing plant</h2> </a>
                                     <span>28-Nov-2019</span>
-                                    <p>City-based company K S Metals and Mining Pvt Ltd is in process of taking over UltraTech crushing and mining plant at Algandhi, near Butibori.</p>
+                                    {{-- <p>City-based company K S Metals and Mining Pvt Ltd is in process of taking over UltraTech crushing and mining plant at Algandhi, near Butibori.</p> --}}
 
                                     <a href="https://www.thehitavada.com/Encyc/2019/11/28/K-S-Metals-Mining-to-take-over-UltraTech-crushing-plant.html" class="read_more" target="_blank">Read <svg width="8" height="14"
                                             viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -492,12 +492,12 @@
                         <div class="swiper-slide">
                             <figure class="blog_box">
                                 <div class="blog_img">
-                                    <img src="{{asset('assets/frontend/images/blogimg2.jpg')}}" alt="">
+                                    <a href="https://www.thehitavada.com/Encyc/2020/10/27/K-S-Metals-Mining-Crushing-Plant-now-operational.html" class="read_more" target="_blank"><img src="{{asset('assets/frontend/images/blogimg2.jpg')}}" alt=""></a>
                                 </div>
                                 <figcaption>
-                                    <h2>K S Metals & Mining Crushing Plant now operational</h2>
+                                    <a href="https://www.thehitavada.com/Encyc/2020/10/27/K-S-Metals-Mining-Crushing-Plant-now-operational.html" class="read_more" target="_blank"><h2>K S Metals & Mining Crushing Plant now operational</h2></a>
                                     <span>27-Oct-2020</span>
-                                    <p>K S Metals & Mining Industries Private Limited, a group company of K S Cheema Group, has inaugurated it Algondi Mining and Crushing unit on Sunday in a simple ceremony after recitation of “Sukhmani Sahib Path” followed by “Ardas” for the wellbeing of all and “Guru ka Langar”.</p>
+                                    {{-- <p>K S Metals & Mining Industries Private Limited, a group company of K S Cheema Group, has inaugurated it Algondi Mining and Crushing unit on Sunday in a simple ceremony after recitation of “Sukhmani Sahib Path” followed by “Ardas” for the wellbeing of all and “Guru ka Langar”.</p> --}}
 
                                     <a href="https://www.thehitavada.com/Encyc/2020/10/27/K-S-Metals-Mining-Crushing-Plant-now-operational.html" class="read_more" target="_blank">Read <svg width="8" height="14"
                                             viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -512,12 +512,12 @@
                         <div class="swiper-slide">
                             <figure class="blog_box">
                                 <div class="blog_img">
-                                    <img src="{{asset('assets/frontend/images/blogimg3.jpg')}}" alt="">
+                                    <a href="https://www.thehitavada.com/Encyc/2019/11/28/Nagpur-offers-huge-biz-opportunities-K-S-Cheema.html" class="read_more" target="_blank"><img src="{{asset('assets/frontend/images/blogimg3.jpg')}}" alt=""></a>
                                 </div>
                                 <figcaption>
-                                    <h2>Nagpur offers huge biz opportunities: K S Cheema</h2>
+                                    <a href="https://www.thehitavada.com/Encyc/2019/11/28/Nagpur-offers-huge-biz-opportunities-K-S-Cheema.html" class="read_more" target="_blank"><h2>Nagpur offers huge biz opportunities: K S Cheema</h2></a>
                                     <span>28-Nov-2019</span>
-                                    <p>K S Cheema, Chairman and Managing Director of Central Star, dealership of Mercedes-Benz and Garnet Motors (India) Pvt. Ltd said, “Nagpur city offers great business opportunities, that’s why I have selected and decided to settle in Nagpur finally.</p>
+                                    {{-- <p>K S Cheema, Chairman and Managing Director of Central Star, dealership of Mercedes-Benz and Garnet Motors (India) Pvt. Ltd said, “Nagpur city offers great business opportunities, that’s why I have selected and decided to settle in Nagpur finally.</p> --}}
 
                                     <a href="https://www.thehitavada.com/Encyc/2019/11/28/Nagpur-offers-huge-biz-opportunities-K-S-Cheema.html" class="read_more" target="_blank">Read <svg width="8" height="14"
                                             viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
