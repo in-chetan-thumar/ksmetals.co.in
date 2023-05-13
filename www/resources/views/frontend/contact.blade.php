@@ -4,7 +4,7 @@
 @endsection
 @section('section')
     <section class="inner_banner p0"
-        style="background-image: url(assets/frontend/images/contactbanner.jpg);background-position: center center;background-size: cover;">
+        style="background-image: url(assets/frontend/images/contactbanner.jpg);background-position: left center;background-size: cover;">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12">
