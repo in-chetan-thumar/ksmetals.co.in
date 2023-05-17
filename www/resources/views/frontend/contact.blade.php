@@ -385,7 +385,6 @@
                     success: function(data, textStatus, jqXHR) {
                         if (!data.error) {
                             $('#exampleModal').modal('show');
-                            console.log('sdfgjh')
                         } else {
                             $('#status').hide();
                             $('#preloader').hide();
