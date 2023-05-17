@@ -25,20 +25,9 @@
                                 </div>
                                 <div class="wow fadeInRight" data-wow-delay="0.4s">
 
-                                    <p>One of the many businesses under the KS Cheema Group of Companies, we are known to be
-                                        the largest self-owned mine in the country today. As a significant contributor to
-                                        the metal and mining industry in India, our land at KS Metals is spread over 77
-                                        acres of area, located 1 km off the Nagpur - Hyderabad National Highway. It all
-                                        started in 2020 when we acquired the mining land from Ultra tech (Aditya Birla
-                                        Group) as a part of our expansion plans. From there on, we never looked back and
-                                        ventured into the pathway of success with determination and hard work.</p>
+                                    <p>Mining & Crushing business carried out by K S Metals & Mining Industry Private Limited (a group company of KS Cheema Group of Companies) is one of the many businesses of the group. The mining land owned by K S Metals & Mining is the largest self-owned mining land in the country today. As a significant contributor to the metal and mining industry in India, our land at KS Metals is spread over 77 acres of area, located just 1 km off the Nagpur - Hyderabad National Highway. It all started in 2020, when we acquired the mining land from UltraTech Cement Limited (Aditya Birla Group) as a part of our expansion plans. From there on, the business is growing progressively and today we are the market leader. Our core values of business are being honest, transparent, committed to the promises and delivering smiles to all customers along with quality product in timely manner.</p>
 
-                                    <p>Today, we own the only crusher unit in the region with a capacity of 200 TPH (Tonne
-                                        Per Hour) of VSI (Vertical Shaft Impactor) material that is a requisite for
-                                        concreting, infrastructure, road and railway work. With the heavy size area of
-                                        mining, consistent quality, massive market share, and a team of experts and
-                                        professionals, we have garnered the trust of our clients for timely supply at any
-                                        given point in time.</p>
+                                    <p>Today, we own the only crusher unit in the region with a capacity of 200 TPH (Tone Per Hour) of VSI (Vertical Shaft Impactor) material that is a requisite for concreting, infrastructure, road and railway work. With the heavy size area of mining, consistent quality, massive market share, and a team of experts and professionals, we have garnered the trust of our clients for timely supply at any given point in time. We constantly strive to remain the best supplier in the industry and be a leader in whatever we do.</p>
                                 </div>
                             </div>
                         </div>

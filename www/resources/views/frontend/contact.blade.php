@@ -110,6 +110,14 @@
                                     <p>K S Metals & Mining Industries Pvt Ltd.</p>
                                     <p>Off Nagpur – Hyderabad National Highway,<br> Alagondi, Nagpur Rural, Nagpur.</p>
                                 </li>
+                                <li>
+                                    <span>Mobile:</span>
+                                    <p>9223542892</p>
+                                </li>
+                                {{-- <li>
+                                    <span>Email:</span>
+                                    <p>K S Metals & Mining Industries Pvt Ltd.</p>
+                                </li> --}}
                             </ul>
                         </div>
                     </div>

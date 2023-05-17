@@ -22,8 +22,8 @@
             </div>
         </div>
         <div class="copyright wow fadeInUp" data-wow-delay="0.2s">
-            <p>Copyright @ KS Metals and Mining HANDCRAFTED WITH ❤ BY <a href="https://www.buzzmakers.in/"
-                    target="_blank">BUZZ MAKERS</a></p>
+            <p>Copyright @ KS Metals and Mining Handcrafted with ❤ by <a href="https://www.buzzmakers.in/"
+                    target="_blank">Buzz Makers</a> </p>
         </div>
     </div>
 </footer>
